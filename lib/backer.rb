@@ -8,6 +8,6 @@ class Backer
   end
   
   def self.Project 
-    @backed_projects = []
+    @backers = []
   end
 end
