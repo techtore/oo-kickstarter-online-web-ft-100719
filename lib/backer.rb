@@ -1,4 +1,4 @@
-selfclass Backer 
+class Backer 
   attr_accessor :backed_projects
   attr_reader :name, :project
   
@@ -10,5 +10,4 @@ selfclass Backer
     @project = project
     @backed_projects << @project
   end
- 
 end
