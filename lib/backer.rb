@@ -10,6 +10,5 @@ selfclass Backer
     @project = project
     @backed_projects << @project
   end
-  
  
 end
