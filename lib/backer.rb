@@ -1,4 +1,4 @@
-class Backer 
+selfclass Backer 
   attr_accessor :backed_projects
   attr_reader :name, :project
   
