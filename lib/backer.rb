@@ -6,10 +6,10 @@ class Backer
     @name = name
     @backed_projects = []
   end
-  def back_project()
+  def back_project(project)
     
-    @backed_projectstc << 
-  
+    @backed_projectst << project
+    project.backed_projects = self
   end
  
 end
